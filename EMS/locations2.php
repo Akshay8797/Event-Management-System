@@ -25,7 +25,7 @@
                 <section>
                     <div class="container">
                         <div class="col-md-4"><!--image holder with 4 grid column-->
-                            <img src="images/urbanxchange.jpg" class="img-responsive">
+                            <img src="images/urbanxchange.jpg" height="400px" width="400px" class = "img-responsive img-thumbnail">
                         </div>
                         <div class="modal fade" id="urbanxchange" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"><!--location modal content-->
                             <div class="modal-dialog" role="document">
@@ -81,8 +81,8 @@
                             & Bar menu served banquet style, or an elegant menu from The Cut Bar & Grill.
                             </p>
                             <hr class="customline3"><!--css modified horizontal line-->
-                            <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#urbanxchange"><!--button for modal trigger-->
-                            More Details  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><!--glyphicon--> 
+                            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#urbanxchange"><!--button for modal trigger-->
+                                More Details &nbsp;<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><!--glyphicon--> 
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -99,7 +99,7 @@
                 <section>
                     <div class="container">
                         <div class="col-md-4"><!--image holder with 4 grid column-->
-                            <img src="images/ananasbar.jpg" class="img-responsive">
+                            <img src="images/ananasbar.jpg" height="400px" width="400px" class = "img-responsive img-thumbnail">
                         </div>
                         <div class="modal fade" id="ananasbar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"><!--location modal content-->
                             <div class="modal-dialog" role="document">
@@ -153,8 +153,8 @@
                             a magnificent French meal in the Brasserie.
                             </p>
                             <hr class="customline3"><!--css modified horizontal line--> 
-                            <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#ananasbar"><!--button for modal trigger-->
-                            More Details  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><!--glyphicon--> 
+                            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#ananasbar"><!--button for modal trigger-->
+                                More Details &nbsp;<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><!--glyphicon--> 
                             </button>
                         </div><!--subcontent div-->
                     </div><!--container div-->
@@ -171,7 +171,7 @@
                 <section>
                     <div class="container">
                         <div class="col-md-4"><!--image holder with 4 grid column-->
-                            <img src="images/argyle.jpg" class="img-responsive">
+                            <img src="images/argyle.jpg" height="400px" width="400px" class = "img-responsive img-thumbnail">
                         </div>    
                         <div class="modal fade" id="argyle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"><!--location modal content-->
                             <div class="modal-dialog" role="document">
@@ -220,8 +220,8 @@
                                 And our landmark venue, The Argyle, has a unique, rich history all of its own. The sandstone walls that house
                                 The Argyle had seen some interesting sights well before we all hit the dance floor.</p>
                             <hr class="customline3">   
-                            <button type="button" class="btn btn-default btn-md" data-toggle = "modal" data-target = "#argyle">
-                            More Details  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> 
+                            <button type="button" class="btn btn-primary btn-md" data-toggle = "modal" data-target = "#argyle">
+                                More Details &nbsp;<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> 
                             </button>
                         </div>
                     </div>
@@ -238,7 +238,7 @@
                 <section>
                     <div class="container">
                         <div class="col-md-4"><!--image holder with 4 grid column-->
-                            <img src="images/munich.jpg" class = "img-responsive">
+                            <img src="images/munich.jpg" height="400px" width="400px" class = "img-responsive img-thumbnail">
                         </div>
                         <div class="modal fade" id="munich" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"><!--location modal content-->
                             <div class="modal-dialog" role="document">
@@ -289,8 +289,8 @@
                                 The state-of-the-art venue seats over 900 people and is located opposite the Melbourne
                                 Convention & Exhibition Centre, overlooking Melbourne’s South Wharf Promenade.</p>
                             <hr class="customline3">   
-                            <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#munich">
-                            More Details  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> 
+                            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#munich">
+                                More Details &nbsp;<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> 
                             </button>
                         </div>
                     </div>

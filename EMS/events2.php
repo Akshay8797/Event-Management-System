@@ -30,7 +30,7 @@
                             <span class="day">20</span><!--day-->
                         </div>
                         <div class="col-md-5"><!--image holder with 5 grid column-->
-                            <img src="images/bdayevent.jpg" class="img-responsive">
+                            <img src="images/bdayevent.jpg" height="400px" width="400px" class="img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--event content holder with 6 grid column-->
                             <h1 class="title">Joe's 21st</h1><!--event content title-->
@@ -65,7 +65,7 @@
                             <span class="day">20</span><!--day-->
                         </div>
                         <div class="col-md-5"><!--image holder with 5 grid column-->
-                            <img src="images/fashevent.jpg" class="img-responsive">
+                            <img src="images/fashevent.jpg" height="400px" width="400px" class="img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--event content holder with 6 grid column-->
                             <h1 class="title">Dress to Impress</h1><!--event content title-->
@@ -100,7 +100,7 @@
                             <span class="day">20</span><!--day-->
                         </div>
                         <div class="col-md-5"><!--image holder with 5 grid column-->
-                            <img src="images/wedevent.jpg" class="img-responsive">
+                            <img src="images/wedevent.jpg" height="400px" width="400px" class="img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--event content holder with 6 grid column-->
                             <h1 class="title">Our 2nd Anniversary</h1><!--event content title-->
@@ -135,7 +135,7 @@
                             <span class="day">20</span><!--day-->
                         </div>
                         <div class="col-md-5"><!--image holder with 5 grid column-->
-                            <img src="images/meetevent.jpg" class = "img-responsive">
+                            <img src="images/meetevent.jpg" height="400px" width="400px" class = "img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--event content holder with 6 grid column-->
                             <h1 class="title">Career Talk</h1><!--event content title-->

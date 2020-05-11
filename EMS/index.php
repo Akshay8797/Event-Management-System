@@ -10,8 +10,20 @@
         <?php require 'utils/header.php'; ?><!--header content. file found in utils folder-->
         <div class = "content"><!--body content holder-->
             <div class = "container">
-                <div class = "col-md-12"><!--body content title holder with 12 grid columns-->
+                <div class = "col-md-6"><!--body content title holder with 12 grid columns-->
                     <h1>What we organize</h1><!--body content title-->
+                </div>
+                <div class="col-md-3">
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg" onclick="document.location = 'events2.php'">
+                        View All Events <span class="glyphicon glyphicon-arrow-right"></span>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg" onclick="document.location = 'viewEvents.php'">
+                        View Your Events <span class="glyphicon glyphicon-arrow-right"></span>
+                    </button>
                 </div>
             </div>
 			
@@ -25,7 +37,7 @@
                 <section>
                     <div class="container">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
-                            <img src="images/wedding2.jpg" class="img-responsive">
+                            <img src="images/wedding2.jpg" height="400px" width="400px" class="img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
                             <h1>Wedding</h1><!--title-->
@@ -35,20 +47,6 @@
                             location for your special day.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                        <?php 
-                //links to database contents. *if logged in
-               if(is_logged_in()){
-                    require_once 'utils/functions.php';
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "viewEvents.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>';
-                }  
-                //links non database contents. *if logged out
-                else {
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "events2.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>'; }
-                ?>
                         </div><!--subcontent div-->
                     </div><!--container div-->
                 </section>
@@ -64,30 +62,16 @@
                 <section>
                     <div class="container">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
-                            <img src="images/birthday2.jpg" class="img-responsive">
+                            <img src="images/birthday2.jpg" height="400px" width="400px" class="img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
                             <h1>Birthday</h1><!--title-->
                             <p><!--content-->
                             Whether an all-day or the ultimate extravaganza that
-                            lasts well into the wee hours, our Urban Events team is here to make sure all your birthday
+                            lasts well into the wee hours, our Events team is here to make sure all your birthday
                             party wishes come true so you can kick back, drink up and enjoy your special day!
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                           <?php 
-                //links to database contents. *if logged in
-               if(is_logged_in()){
-                    require_once 'utils/functions.php';
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "viewEvents.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>';
-                }  
-                //links non database contents. *if logged out
-                else {
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "events2.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>'; }
-                ?>
                     </div><!--container div-->
                 </section>
             </div><!--row div-->
@@ -102,30 +86,16 @@
                 <section>
                     <div class="container">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
-                            <img src="images/fashion2.jpg" class="img-responsive">
+                            <img src="images/fashion2.jpg" height="400px" width="400px" class="img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
                             <h1>Fashion</h1><!--title-->
                             <p><!--content-->
                             Fast becoming to go-to location for fashion events, PR gatherings and product launches, 
-                            The Urban Purveyor Group venues provide you with choice and quality in premium locations 
+                            Our Event Group venues provide you with choice and quality in premium locations 
                             for all your event needs.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                             <?php 
-                //links to database contents. *if logged in
-               if(is_logged_in()){
-                    require_once 'utils/functions.php';
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "viewEvents.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>';
-                }  
-                //links non database contents. *if logged out
-                else {
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "events2.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>'; }
-                ?>
                         </div><!--subcontent div-->
                     </div><!--container div-->
                 </section>
@@ -141,30 +111,16 @@
                 <section>
                     <div class="container">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
-                            <img src="images/meeting2.jpg" class="img-responsive">
+                            <img src="images/meeting2.jpg" height="400px" width="400px" class="img-responsive img-thumbnail">
                         </div>
                         <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
                             <h1>Meeting</h1><!--title-->
                             <p><!--content-->
                             From formal, to not-so-formal, our flexible event
                             spaces can cater to your every need for meetings and conferences large or small, and our
-                            dedicated event team can assist with all aspects of your event planning.
+                            dedicated Event Team can assist with all aspects of your event planning.
                             </p>
                             <hr class="customline"><!--css modified horizontal line-->
-                            <?php 
-                //links to database contents. *if logged in
-               if(is_logged_in()){
-                    require_once 'utils/functions.php';
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "viewEvents.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>';
-                }  
-                //links non database contents. *if logged out
-                else {
-                    echo '<button type="button" class="btn btn-secondary btn-lg"> <a href = "events2.php">
-                            View Events <span class="glyphicon glyphicon-arrow-right"></span>
-                            </a></button>'; }
-                ?>
                         </div><!--subcontent div-->
                     </div><!--container div-->
                 </section>

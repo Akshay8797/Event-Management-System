@@ -210,11 +210,6 @@ footer {
     padding-top: 20px;
 }
 
-.footerContent > .footerContent1 {
-    font-size: 40px;
-    line-height: 1.5;
-}
-
 .footerSubtext {
     color: #95a5a6;
 }
@@ -297,12 +292,6 @@ header .modal-body .rgsterbtn:hover {
 }
 /*---*/
 
-/*date and time style, placed within the jumbotron*/
-#dateAndTime {
-    font-size: 24px;
-}
-/*---*/
-
 /*styles for contact us page*/
 .contacts > h1 {
     line-height: 2;
@@ -316,3 +305,9 @@ textarea {
     resize: none;
 }
 /*---*/
+
+.divCenter {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+}
