@@ -26,7 +26,7 @@ if (!isset($errors)) {
         <?php require 'utils/header.php'; ?><!--header content. file found in utils folder-->
         <div class="content">
             <div class="container">
-                <h1>Create Location Form</h1><!--form title-->
+                <h1>EMS :: Create Location</h1><!--form title-->
                 <?php 
                 if (isset($errorMessage)) {
                     echo '<p>Error: ' . $errorMessage . '</p>';
